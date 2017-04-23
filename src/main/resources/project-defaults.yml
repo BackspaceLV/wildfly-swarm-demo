@@ -1,0 +1,8 @@
+swarm:
+  datasources:
+    data-sources:
+      MyDSMairis:
+        driver-name: mysql
+        connection-url: jdbc:mysql://localhost/mydb-boot-demo?useSSL=false
+        user-name: root
+        password: 123456
